@@ -46,7 +46,7 @@ function RegistrationForm() {
         }
     };
     return(
-        <div className="form">
+        <div className="form regsister">
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"

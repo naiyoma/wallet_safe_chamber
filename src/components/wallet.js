@@ -90,7 +90,7 @@ function WalletForm() {
                     placeholder="password"
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <button type="submit" className="btn">Register</button>
+                <button type="submit" className="btn">Create</button>
                 <div className="message">{message ? <p>{message}</p>: null}</div>
             </form>
         </div>
